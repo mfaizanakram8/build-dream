@@ -59,7 +59,7 @@ const Testimonials = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="text-center mb-8">
-        <p className="text-yellow-600 uppercase font-semibold">Testimonial</p>
+        <p className="text-custom-yellow uppercase font-semibold ">Testimonial</p>
         <h2 className="text-3xl font-bold text-gray-900">Happy Clients</h2>
       </div>
       <div className="flex justify-center gap-6">
@@ -68,8 +68,8 @@ const Testimonials = () => {
             key={index}
             className={`p-6 rounded-lg shadow-lg transition-colors duration-300 ${
               testimonial.highlight
-                ? "bg-yellow-500 text-white hover:bg-yellow-600"
-                : "bg-white text-gray-900 hover:bg-yellow-500 hover:text-white"
+                ? "bg-white text-black hover:bg-custom-yellow hover:text-white"
+                : "bg-white text-gray-900 hover:bg-custom-yellow hover:text-white"
             }`}
           >
             <div className="flex items-center mb-4">
@@ -80,7 +80,7 @@ const Testimonials = () => {
               />
               <div>
                 <h4 className="font-bold">{testimonial.name.toUpperCase()}</h4>
-                <p className="text-sm text-yellow-600">{testimonial.role}</p>
+                <p className="text-sm text-custom-yellow hover:text-white ">{testimonial.role}</p>
               </div>
             </div>
             <p>{testimonial.text}</p>
