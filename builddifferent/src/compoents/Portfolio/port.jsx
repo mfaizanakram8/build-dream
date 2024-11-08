@@ -16,7 +16,13 @@ const port = () => {
           <img src="/2.png" alt="" className="w-[440px]" />
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-          <h3 className="text-white text-xl font-bold mt-48   mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg" />
           </div>
         </div>
         
@@ -24,7 +30,13 @@ const port = () => {
           <img src="/1.png" alt="" className="w-[440px]" />
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-          <h3 className="text-white text-xl font-bold mt-48   mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg" />
           </div>
         </div>
         
@@ -32,29 +44,43 @@ const port = () => {
           <img src="/3.png" alt="" className="w-[390px]" />
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-          <h3 className="text-white text-xl font-bold mt-48  mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg" />
           </div>
         </div>
       </div>
       
-      <div className="flex flex-row ">
+      <div className="flex flex-row">
         <div className="relative group">
           <img src="/5.png" alt="" className="w-[440px]" />
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-          <h3 className="text-white text-xl font-bold mt-48   mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
-  
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg" />
           </div>
         </div>
         
         <div className="relative group">
           <img src="/6.png" alt="" className="w-[440px]" />
-         
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-           
-            <h3 className="text-white text-xl font-bold mt-48  mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
-            
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg" />
           </div>
         </div>
         
@@ -62,7 +88,13 @@ const port = () => {
           <img src="/7.png" alt="" className="w-[390px]" />
           {/* Hover Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity">
-          <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start" > BUILDINGS <br /><span className=' text-3xl'>HIGH TOWER WORKS</span></h3>
+            <h3 className="text-white text-xl font-bold mt-48 mr-9 text-start">
+              BUILDINGS <br /><span className='text-3xl'>HIGH TOWER WORKS</span>
+            </h3>
+          </div>
+          {/* Search Icon */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <FaSearch className="text-white text-lg " />
           </div>
         </div>
       </div>
